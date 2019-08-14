@@ -1,7 +1,7 @@
 package Tridimensional;
 
 
-public abstract class Tridimensional {
+public abstract class Tridimensional implements Comparable<Tridimensional>{
     
     protected float areaDaBase;
     protected float volume;
@@ -16,4 +16,5 @@ public abstract class Tridimensional {
     
     public abstract void calcularArea();
     public abstract void calcularVolume(); 
+    
 }

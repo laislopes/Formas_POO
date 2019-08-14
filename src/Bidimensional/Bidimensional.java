@@ -1,7 +1,7 @@
 package Bidimensional;
 
 
-public abstract class Bidimensional {
+public abstract class Bidimensional implements Comparable<Bidimensional>{
     
     protected float area;
     protected float perimetro;
